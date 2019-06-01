@@ -1,0 +1,30 @@
+baseURL: http://www.thirtythreeforty.net
+languageCode: en-us
+title: "&> /dev/null"
+theme: hyde-hyde
+
+params:
+  author: George Hilliard
+  description: A blog about embedded systems and software engineering
+  copyright: George Hilliard
+
+  social:
+    github: thirtythreeforty
+    stackoverflow: 1830736
+    email: thirtythreeforty@gmail.com
+    linkedin: george-hilliard
+
+menu:
+  main:
+  - name: Posts
+    weight: 100
+    identifier: posts
+    url: /posts/
+  - name: About
+    weight: 200
+    identifier: about
+    url: /about/
+
+#pygmentsOptions: linenos=table
+pygmentsCodefences: true
+pygmentsStyle: monokailight

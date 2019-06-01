@@ -1,0 +1,11 @@
+image: klakegg/hugo:latest
+
+pages:
+  stage: deploy
+  script:
+  - hugo
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
